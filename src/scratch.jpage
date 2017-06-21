@@ -1,0 +1,8 @@
+edu.cnm.deepdive.examples.ExampleClass example;
+System.out.println("After class reference, before instantiation");
+example = new edu.cnm.deepdive.examples.ExampleClass();
+
+System.out.println();
+
+edu.cnm.deepdive.examples.ExampleClass example2;
+example2 = new edu.cnm.deepdive.examples.ExampleSubclass();
